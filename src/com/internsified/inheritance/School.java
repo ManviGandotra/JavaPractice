@@ -6,6 +6,7 @@ public class School extends EducationInstitution {
 	public School(String board, String leader, String level) {
 		super(board, leader);
 		this.level = level;
+
 	}
 	
 	public School(String board, String leader) {
