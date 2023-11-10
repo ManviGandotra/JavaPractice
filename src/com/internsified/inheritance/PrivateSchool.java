@@ -8,10 +8,11 @@ public class PrivateSchool extends School {
 		// TODO Auto-generated constructor stub
 		this.fee=fee;
 	}
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	
+	public void fee() {
+		System.out.println("Fee is "+fee);
 	}
+
+	
 
 }

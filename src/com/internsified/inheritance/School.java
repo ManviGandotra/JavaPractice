@@ -12,5 +12,9 @@ public class School extends EducationInstitution {
 	public School(String board, String leader) {
 		super(board, leader);
 	}
+	
+	public void level() {
+		System.out.println("Level is "+level);
+	}
 
 }

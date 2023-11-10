@@ -11,14 +11,25 @@ public class Test {
 		
 		PrivateSchool ps= new PrivateSchool("CBSE", "Henry", "High School", 2000);
 		
-		System.out.println("School board is "+s.board);
+		/*System.out.println("School board is "+s.board);
 		System.out.println("School leader is "+s.leader);
 		System.out.println("This is "+ s.level);
 		
 		System.out.println("School board is "+ps.board);
-		System.out.println("School leader is "+ps.board);
+		System.out.println("School leader is "+ps.leader);
 		System.out.println("This is "+ ps.level);
 		System.out.println("School fee is "+ps.fee);
+		*/
+		
+		s.board();
+		s.leader();
+		s.level();
+		
+		ps.board();
+		ps.leader();
+		ps.level();
+		ps.fee();
+		
 		
 		
 		EducationInstitution ed= new EducationInstitution("", "");

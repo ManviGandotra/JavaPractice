@@ -16,11 +16,11 @@ public class EducationInstitution {
 	
 	
 	public void board() {
-		System.out.println(board);
+		System.out.println("Board is "+board);
 	}
 	
 	public void leader() {
-		System.out.println(leader);
+		System.out.println("Leader is "+leader);
 	}
 	
 	
