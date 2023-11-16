@@ -9,6 +9,11 @@ public class Test {
 		tl.yellowLight();
 		tl.greenLight();
 		tl.allLightsOn();
+		tl.greenLeftArrow();
+		tl.redRightTurn();
+		
+		
+		//TrafficLights t= new TrafficLights();
 
 	}
 

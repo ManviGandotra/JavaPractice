@@ -5,11 +5,15 @@ public class Test {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		School s=new School("CBSE", "Manvi");
+		School cbseSchool=new School("CBSE", "Manvi","high school");
 		
-		School s1=new School("ICSE", "Dhvani");
+		/*
+		School icseSchool=new School("ICSE", "Dhvani");
+		 
+		School stateBoardSchool= new School();
 		
-		PrivateSchool ps= new PrivateSchool("CBSE", "Henry", "High School", 2000);
+		PrivateSchool privateSchool= new PrivateSchool("CBSE", "Henry", "High School", 2000);
+		*/
 		
 		/*System.out.println("School board is "+s.board);
 		System.out.println("School leader is "+s.leader);
@@ -21,20 +25,36 @@ public class Test {
 		System.out.println("School fee is "+ps.fee);
 		*/
 		
-		s.board();
-		s.leader();
-		s.level();
+		/*
+		cbseSchool.printBoard();
+		cbseSchool.printLeader();
+		cbseSchool.printLevel();
+		System.out.println("************");
+		cbseSchool.printAllAttributes();
+		System.out.println("************");
+		icseSchool.printBoard();
+		icseSchool.printLeader();
+		icseSchool.printLevel();
+		System.out.println("************");
+		icseSchool.printAllAttributes();
+		System.out.println("************");
+		cbseSchool.printAllAttributes();
+		System.out.println("************");
+		stateBoardSchool.printAllAttributes();
+		*/
 		
-		ps.board();
-		ps.leader();
-		ps.level();
-		ps.fee();
+		
+		/*
+		 * privateSchool.printBoard(); privateSchool.printLeader();
+		 * privateSchool.printLevel(); privateSchool.printFee();
+		 * System.out.println("************");
+		 * 
+		 * stateBoardSchool.printAllAttributes(stateBoardSchool);
+		 * 
+		 */	
 		
 		
-		
-		EducationInstitution ed= new EducationInstitution("", "");
-		
-		ed=s;
+		EducationInstitution ed= cbseSchool;
 		//ed.level; //error
 		
 

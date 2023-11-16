@@ -22,5 +22,16 @@ public class RulesOfTrafficLights extends TrafficLights {
 		System.out.println("Green means go");
 		
 	}
+	
+	public void greenLeftArrow() {
+		System.out.println("Yield on left turn when Green");
+	}
+	
+	@Override
+	public String redRightTurn() {
+		System.out.println("Right turn on red if different for states. Check state traffic rules");
+		System.out.print(super.redRightTurn());
+		return null;
+	}
 
 }

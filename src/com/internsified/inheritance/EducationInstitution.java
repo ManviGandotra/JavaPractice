@@ -6,20 +6,26 @@ public class EducationInstitution {
 	
 	public EducationInstitution(String board, String leader) {
 		
-		super();
+		System.out.println("EducationInstitution(String board, String leader)");
 		this.board = board;
 		this.leader = leader;
+		
 	}
+	/*
+	 * public EducationInstitution() {
+		System.out.println("EducationInstitution");
+	}
+	*/
 
 
 
 	
 	
-	public void board() {
+	public void printBoard() {
 		System.out.println("Board is "+board);
 	}
 	
-	public void leader() {
+	public void printLeader() {
 		System.out.println("Leader is "+leader);
 	}
 	

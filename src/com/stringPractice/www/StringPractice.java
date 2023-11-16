@@ -20,6 +20,7 @@ public class StringPractice {
 		System.out.println(className);
 		StringPractice.getStringLength(className);
 		StringPractice.reverseString(className);
+		StringPractice.stringMethodsPractice("This is string practice");
 
 	}
 	
@@ -46,6 +47,16 @@ public class StringPractice {
 		System.out.println(s1.reverse());
 		
 		
+	}
+	
+	public static void stringMethodsPractice(String str) {
+	
+		System.out.println(str.length());
+		System.out.println(str.charAt(5));
+		System.out.println(str.equals("hello"));
+		System.out.println(str.equals("This is string practice"));
+		System.out.println(str.equalsIgnoreCase("this is String Practice"));
+		System.out.println(str.replace('i', 'e'));
 	}
 
 }

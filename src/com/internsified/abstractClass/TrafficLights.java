@@ -11,5 +11,10 @@ public abstract class TrafficLights {
 	public void allLightsOn() {
 		System.out.println("Error in lights");
 	}
+	
+	public String redRightTurn() {
+		String s="Yield on right turn when red";
+		return s;
+	}
 
 }

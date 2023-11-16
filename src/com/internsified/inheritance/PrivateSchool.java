@@ -9,7 +9,7 @@ public class PrivateSchool extends School {
 		this.fee=fee;
 	}
 	
-	public void fee() {
+	public void printFee() {
 		System.out.println("Fee is "+fee);
 	}
 

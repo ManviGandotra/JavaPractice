@@ -2,17 +2,31 @@ package com.stringPractice.www;
 
 public class ReverseAString {
 	
-	public void reverseAString(String s) {
-		String rString=null;
+	public static String reverseAString(String s) {
+		StringBuilder rString=null;
 		StringBuilder sb=new StringBuilder();
 		System.out.println("Original String: "+sb.append(s));
-		System.out.println("Reversed string: "+sb.reverse());
+		rString =sb.reverse();
+		System.out.println("Reversed string: "+rString);
+		String reversedString=rString.toString();
+		return reversedString;
 		
 	}
 	
-	public void lengthOfString(String s) {
+	public static void lengthOfString(String s) {
 		int length=s.length();
 		System.out.println("Length of the String- "+s+": "+length);
+	}
+	
+	public static void checkIfAStringISPalindrome(String originalString) {
+		String reverseString = reverseAString(originalString);
+		if(originalString.equalsIgnoreCase(reverseString)) {
+			System.out.println(originalString+" is palindrome");
+		}
+		else {
+			System.out.println(originalString+" is not palindrome");
+		}
+		
 	}
 	
 	
